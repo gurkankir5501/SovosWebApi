@@ -17,6 +17,7 @@ using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//test
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
