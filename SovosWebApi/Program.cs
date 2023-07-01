@@ -1,7 +1,11 @@
 
 using FluentValidation;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Configuration;
 using Serilog;
 using Serilog.Core;
@@ -13,6 +17,7 @@ using SovosWebApi.Core.Validator;
 using SovosWebApi.JobSchedulers;
 using SovosWebApi.Repository.Repositories;
 using SovosWebApi.Repository.RepositoryContext;
+using System.IO;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
