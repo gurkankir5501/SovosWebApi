@@ -41,6 +41,7 @@ builder.Services.AddDbContext<Context>(options =>
 
 });
 
+
 builder.Services.AddScoped(typeof(IInvoiceHeaderRepository), typeof(InvoiceHeaderRepository));
 builder.Services.AddScoped(typeof(IInvoiceLineRepository), typeof(InvoiceLineRepository));
 builder.Services.AddScoped(typeof(IMailer), typeof(Mailer));
