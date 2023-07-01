@@ -7,6 +7,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\SovosWebApi.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\SovosWebApi.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net6.0\SovosWebApi.MvcApplicationPartsAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0\SovosWebApi.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0\SovosWebApi.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net6.0\appsettings.json" />
+    <Content Include="bin\Debug\net6.0\Logger\log20230630.json" />
+    <Content Include="bin\Debug\net6.0\Logger\log20230701.json" />
+    <Content Include="bin\Debug\net6.0\SovosWebApi.deps.json" />
+    <Content Include="bin\Debug\net6.0\SovosWebApi.runtimeconfig.json" />
+    <Content Include="obj\Debug\net6.0\SovosWebApi.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net6.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net7.0\SovosWebApi.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net7.0\staticwebassets.build.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\SovosWebApi.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.5.2" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
@@ -29,6 +54,106 @@
 
   <ItemGroup>
     <Folder Include="Logger\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll" />
+    <None Include="bin\Debug\net6.0\FluentValidation.dll" />
+    <None Include="bin\Debug\net6.0\Humanizer.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.Options.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Identity.Client.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\net6.0\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\net6.0\Quartz.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll" />
+    <None Include="bin\Debug\net6.0\Serilog.dll" />
+    <None Include="bin\Debug\net6.0\Serilog.Extensions.Logging.dll" />
+    <None Include="bin\Debug\net6.0\Serilog.Sinks.Console.dll" />
+    <None Include="bin\Debug\net6.0\Serilog.Sinks.File.dll" />
+    <None Include="bin\Debug\net6.0\SovosWebApi.Core.dll" />
+    <None Include="bin\Debug\net6.0\SovosWebApi.Core.pdb" />
+    <None Include="bin\Debug\net6.0\SovosWebApi.dll" />
+    <None Include="bin\Debug\net6.0\SovosWebApi.exe" />
+    <None Include="bin\Debug\net6.0\SovosWebApi.pdb" />
+    <None Include="bin\Debug\net6.0\SovosWebApi.Repository.dll" />
+    <None Include="bin\Debug\net6.0\SovosWebApi.Repository.pdb" />
+    <None Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll" />
+    <None Include="bin\Debug\net6.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll" />
+    <None Include="bin\Debug\net6.0\System.Runtime.Caching.dll" />
+    <None Include="bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Debug\net6.0\System.Security.Permissions.dll" />
+    <None Include="bin\Debug\net6.0\System.Windows.Extensions.dll" />
+    <None Include="obj\Debug\net6.0\apphost.exe" />
+    <None Include="obj\Debug\net6.0\refint\SovosWebApi.dll" />
+    <None Include="obj\Debug\net6.0\ref\SovosWebApi.dll" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.assets.cache" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.csproj.CopyComplete" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.dll" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.pdb" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.build.SovosWebApi.props" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SovosWebApi.props" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SovosWebApi.props" />
+    <None Include="obj\Debug\net7.0\apphost.exe" />
+    <None Include="obj\Debug\net7.0\refint\SovosWebApi.dll" />
+    <None Include="obj\Debug\net7.0\ref\SovosWebApi.dll" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.assets.cache" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.csproj.CopyComplete" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.dll" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.pdb" />
+    <None Include="obj\Debug\net7.0\staticwebassets\msbuild.build.SovosWebApi.props" />
+    <None Include="obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.SovosWebApi.props" />
+    <None Include="obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.SovosWebApi.props" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\SovosWebApi.csproj.nuget.g.props" />
+    <None Include="obj\SovosWebApi.csproj.nuget.g.targets" />
   </ItemGroup>
 
 </Project>

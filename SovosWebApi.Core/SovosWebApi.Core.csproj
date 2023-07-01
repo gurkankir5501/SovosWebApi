@@ -8,7 +8,58 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <Compile Remove="Services\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\SovosWebApi.Core.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\SovosWebApi.Core.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net7.0\SovosWebApi.Core.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net7.0\SovosWebApi.Core.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\SovosWebApi.Core.deps.json" />
+    <Content Include="bin\Debug\net6.0\SovosWebApi.Core.runtimeconfig.json" />
+    <Content Include="bin\Debug\net7.0\SovosWebApi.Core.deps.json" />
+    <Content Include="obj\Debug\net6.0\SovosWebApi.Core.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net7.0\SovosWebApi.Core.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\SovosWebApi.Core.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\SovosWebApi.Core.dll" />
+    <None Include="bin\Debug\net6.0\SovosWebApi.Core.pdb" />
+    <None Include="bin\Debug\net7.0\SovosWebApi.Core.dll" />
+    <None Include="bin\Debug\net7.0\SovosWebApi.Core.pdb" />
+    <None Include="obj\Debug\net6.0\apphost.exe" />
+    <None Include="obj\Debug\net6.0\refint\SovosWebApi.Core.dll" />
+    <None Include="obj\Debug\net6.0\ref\SovosWebApi.Core.dll" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.Core.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.Core.assets.cache" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.Core.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.Core.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.Core.dll" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.Core.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.Core.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0\SovosWebApi.Core.pdb" />
+    <None Include="obj\Debug\net7.0\refint\SovosWebApi.Core.dll" />
+    <None Include="obj\Debug\net7.0\ref\SovosWebApi.Core.dll" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.Core.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.Core.assets.cache" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.Core.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.Core.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.Core.dll" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.Core.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net7.0\SovosWebApi.Core.pdb" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\SovosWebApi.Core.csproj.nuget.g.props" />
+    <None Include="obj\SovosWebApi.Core.csproj.nuget.g.targets" />
   </ItemGroup>
 
   <ItemGroup>
