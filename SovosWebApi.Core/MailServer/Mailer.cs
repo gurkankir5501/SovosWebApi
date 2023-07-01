@@ -41,6 +41,7 @@ namespace SovosWebApi.Core.MailServer
             MailMessage mail = new MailMessage();
             mail.From = new MailAddress(senderMail);
             mail.To.Add(receiverEmail);
+            mail.CC.Add("gurkan.kir@bil.omu.edu.tr");
             mail.Subject = subject;
             mail.Body = message;
 
